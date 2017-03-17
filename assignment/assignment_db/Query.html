@@ -1,0 +1,13 @@
+<p>
+CREATE DATABASE  `assignments_db` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+</p>
+
+<p>
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `designation` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+</p>
