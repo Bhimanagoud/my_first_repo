@@ -1,3 +1,1 @@
-# my_first_repo
-
-# Some files commited for test
+# Most of the examples related to datatables
